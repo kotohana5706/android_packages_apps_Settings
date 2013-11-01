@@ -131,4 +131,9 @@ limitations under the License.
     <!-- Sound settings screen, setting check box label -->
     <string name="camera_sounds_title">카메라 셔터 소리</string>
     <string name="camera_sounds_summary">주의 : 카메라 셔터 소리를 해제하는 것은 일부 지역에서 불법일 수 있습니다</string>
+    <!-- Custom Carrier Label -->
+    <string name="custom_carrier_label_title">커스텀 캐리어 라벨</string>
+    <string name="custom_carrier_label_summary">통신사 라벨 부분에 들어갈 이름을 수정합니다.</string>
+    <string name="custom_carrier_label_explain">현재 통신사 라벨 부분에 들어갈 새로운 이름을 입력하세요. 기본 설정으로 되돌리려면 공백 상태로 확인을 누르세요.</string>
+    <string name="custom_carrier_label_notset">시스템 기본값으로 설정된 상태입니다.</string>
 </resources>
