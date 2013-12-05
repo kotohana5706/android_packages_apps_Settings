@@ -18,6 +18,11 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/themes_settings_title" >
 
+    <com.android.settings.cyanogenmod.SystemSettingCheckBoxPreference
+        android:key="lockscreen_see_through"
+        android:title="@string/see_through_title"
+        android:summary="@string/see_through_summary" />
+
     <PreferenceCategory
         android:title="@string/title_general"
         android:key="lockscreen_general_category" >
