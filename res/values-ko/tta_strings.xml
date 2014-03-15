@@ -80,5 +80,13 @@ limitations under the License.
   <string name="battery_around_lockscreen_ring">잠금해제 배터리 링</string>
     <!-- Second Clock -->
     <string name="clock_use_second">초시계 사용</string>
+    <!--Notification Category-->
+    <string name="notification_category">알림</string>
+    <string name="notification_peek_title">PEEK</string>
+    <string name="notification_peek_summary">디바이스를 들어올릴 경우 최신 알림을 표시합니다.</string>
+    <string name="note">주의!</string>
+    <string name="notifications_on_lockscreen">잠금화면 알림 방식</string>
+    <string name="notifications_on_lockscreen_summary">잠금화면에서 표시될 알림 방식을 설정하세요.</string>
+    <string name="notifications_on_lockscreen_warning_summary">잠금화면 알림과 Peek는 동시에 사용될 수 없습니다. 한쪽만 선택해 주세요.</string>
 
   </resources>

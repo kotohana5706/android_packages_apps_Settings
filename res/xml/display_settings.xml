@@ -55,7 +55,19 @@
                     android:title="@string/wifi_display_settings_title"
                     android:fragment="com.android.settings.wfd.WifiDisplaySettings" />
 
+
+
         </PreferenceCategory>
+
+        <!-- Notifications -->
+        <PreferenceCategory
+            android:key="notification_category"
+            android:title="@string/notification_category"/>
+
+        <CheckBoxPreference
+            android:key="notification_peek"
+            android:title="@string/notification_peek_title"
+            android:summary="@string/notification_peek_summary" />
 
         <PreferenceCategory
             android:key="expanded_desktop_category"
@@ -85,10 +97,6 @@
             android:key="lights_prefs"
             android:title="@string/lights_category_title">
 
-            <PreferenceScreen
-                android:key="notification_pulse"
-                android:title="@string/notification_light_title"
-                android:fragment="com.android.settings.notificationlight.NotificationLightSettings" />
 
             <PreferenceScreen
                 android:key="battery_light"
