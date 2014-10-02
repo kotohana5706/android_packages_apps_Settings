@@ -77,6 +77,8 @@ limitations under the License.
     <string name="github_address">Connect to Team Triangles Github</string>
     <string name="github">Team Triangles Github</string>
     <string name="github_address">Connect to Team Triangles Github</string>
+    <!-- Lockscreen battery ring -->
+    <string name="battery_around_lockscreen_ring">Battery around unlock ring</string>
 </resources>
 
 

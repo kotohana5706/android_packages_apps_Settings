@@ -47,6 +47,7 @@ public class LockscreenInterface extends SettingsPreferenceFragment implements
     private static final String KEY_ENABLE_MAXIMIZE_WIGETS = "lockscreen_maximize_widgets";
     private static final String KEY_LOCKSCREEN_MODLOCK_ENABLED = "lockscreen_modlock_enabled";
     private static final String KEY_LOCKSCREEN_TARGETS = "lockscreen_targets";
+    private static final String BATTERY_AROUND_LOCKSCREEN_RING = "battery_around_lockscreen_ring";
 
     private CheckBoxPreference mEnableKeyguardWidgets;
     private CheckBoxPreference mEnableCameraWidget;
@@ -58,6 +59,7 @@ public class LockscreenInterface extends SettingsPreferenceFragment implements
     private ChooseLockSettingsHelper mChooseLockSettingsHelper;
     private LockPatternUtils mLockUtils;
     private DevicePolicyManager mDPM;
+    private CheckBoxPreference mLockRingBattery;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -67,6 +69,12 @@ public class LockscreenInterface extends SettingsPreferenceFragment implements
         mChooseLockSettingsHelper = new ChooseLockSettingsHelper(getActivity());
         mLockUtils = mChooseLockSettingsHelper.utils();
         mDPM = (DevicePolicyManager) getSystemService(Context.DEVICE_POLICY_SERVICE);
+
+	mLockRingBattery = (CheckBoxPreference) findPreference(BATTERY_AROUND_LOCKSCREEN_RING);
+	if (mLockRingBattery != null) {
+		mLockRingBattery.setChecked(Settings.System.getInt(getContentResolver(),
+			Settings.System.BATTERY_AROUND_LOCKSCREEN_RING, 0) == 1);
+	}
 
         // Find categories
         PreferenceCategory generalCategory = (PreferenceCategory)
@@ -189,6 +197,10 @@ public class LockscreenInterface extends SettingsPreferenceFragment implements
         }
     }
 
+    private boolean isToggled(Preference pref) {
+	return ((CheckBoxPreference) pref).isChecked();
+    }
+
     @Override
     public boolean onPreferenceTreeClick(PreferenceScreen preferenceScreen, Preference preference) {
         final String key = preference.getKey();
@@ -196,6 +208,8 @@ public class LockscreenInterface extends SettingsPreferenceFragment implements
         if (KEY_ENABLE_WIDGETS.equals(key)) {
             mLockUtils.setWidgetsEnabled(mEnableKeyguardWidgets.isChecked());
             return true;
+	} else if (preference == mLockRingBattery) {
+	    Settings.System.putInt(getActivity().getApplicationContext().getContentResolver(), Settings.System.BATTERY_AROUND_LOCKSCREEN_RING, isToggled(preference) ? 1 : 0);
         } else if (KEY_ENABLE_CAMERA.equals(key)) {
             mLockUtils.setCameraEnabled(mEnableCameraWidget.isChecked());
             return true;
