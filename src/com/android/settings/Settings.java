@@ -1394,3 +1394,4 @@ public class Settings extends PreferenceActivity
     public static class ThemeSettingsActivity extends Settings { /* empty */ }
     public static class WifiApSettingsActivity extends Settings { /* empty */ }
 }
+

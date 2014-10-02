@@ -80,9 +80,21 @@
         android:fragment="com.android.settings.WirelessSettings"
         android:icon="@drawable/empty_icon" />
 
-    <!-- INTERFACE -->
+    <!-- Triangles Interface Customize -->
     <header android:id="@+id/interface_section"
-        android:title="@string/header_category_interface" />
+        android:title="@string/tta_header_category_interface" />
+
+    <!-- Triangle Center -->
+    <header
+        settings:includeXmlForSearch="@xml/triangle_center"
+        android:id="@+id/triangle_center"
+        android:fragment="com.android.settings.triangle.TriangleCenter"
+        android:title="@string/triangle_center"
+        android:icon="@drawable/ic_settings_trianglesection" />
+
+    <!-- System Interface -->
+    <header android:id="@+id/system_interface_section"
+        android:title="@string/header_category_system_interface" />
 
     <!-- Home -->
     <header
@@ -90,14 +102,6 @@
         android:icon="@drawable/ic_settings_home"
         android:fragment="com.android.settings.HomeSettings"
         android:title="@string/home_settings" />
-
-    <!-- Lock screen -->
-    <header
-        settings:includeXmlForSearch="@xml/lockscreen_interface_settings"
-        android:id="@+id/lock_screen_settings"
-        android:fragment="com.android.settings.cyanogenmod.LockscreenInterface"
-        android:title="@string/lock_screen_title"
-        android:icon="@drawable/ic_settings_lockscreen" />
 
     <!-- Themes -->
     <header
@@ -135,9 +139,18 @@
             android:targetClass="com.cyanogenmod.settings.device.TouchscreenGestureSettings" />
     </header>
 
+
     <!-- DEVICE -->
     <header android:id="@+id/device_section"
         android:title="@string/header_category_device" />
+
+    <!-- Lock screen -->
+    <header
+        settings:includeXmlForSearch="@xml/lockscreen_interface_settings"
+        android:id="@+id/lock_screen_settings"
+        android:fragment="com.android.settings.cyanogenmod.LockscreenInterface"
+        android:title="@string/lock_screen_title"
+        android:icon="@drawable/ic_settings_lockscreen" />
 
     <!-- Sound -->
     <header

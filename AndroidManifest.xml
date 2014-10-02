@@ -2082,6 +2082,12 @@
             </intent-filter>
         </activity>
 
+	<!-- Triangle Center -->
+        <activity android:name=".triangle.TriangleCenter" />
+
+	<!-- Triangle Info -->
+        <activity android:name=".triangle.Triangle_Info" />
+
         <activity android:name=".applications.LockPatternActivity"
                   android:label="@string/protected_apps"
                   android:windowSoftInputMode="stateHidden|adjustResize"

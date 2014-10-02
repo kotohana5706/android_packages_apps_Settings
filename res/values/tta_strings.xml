@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2012-2013 Team Triangles ROM Project
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+	<!-- CM Settings Header -->
+    <string name="header_category_system_interface">System Interface</string>
+	<!-- Triangles Settings Header -->
+    <string name="tta_header_category_interface">Personal Setting</string>
+    <string name="triangle_center">Triangles Center</string>
+
+	<!-- Triangles Center -->
+    <string name="github">OpenSource</string>
+    <string name="github_address">View OpenSource of Team Triangles</string>
+    <string name="facebook">Facebook</string>
+    <string name="facebook_address">View Facebook of Team Triangles</string>
+    <string name="developer_info">Developer Information</string>
+    <string name="developer_info_summary">View Information about Team Triangles Developers</string>
+    <string name="tta_rom_info">ROM Information</string>
+    <string name="trianglesrom_version">ROM Version</string>
+    <string name="ota_update">OTA Update</string>
+    <string name="ota_update_summary">Check Updates for TrianglesROM</string>
+    <string name="ota_update_disabled">OTA Update is not available.</string>
+
+    <!-- About Triangles -->
+    <string name="about_triangle">About Team Triangles</string>
+    <string name="about_triangle1">Team Triangles ROM Project</string>
+    <string name="about_triangle2">Thanks for using our ROM. \nIf you have any issues, you can email us by pressing each name.</string>
+    <string name="triangle_manager">Team Manager</string>
+    <string name="triangles_leader">Leader</string>
+    <string name="triangles_viceleader">Vice Leader</string>
+    <string name="platform_maintainer">Platform Maintainers</string>
+    <string name="interface_designer">Designers</string>
+    <string name="plan_marketing">Planning, Marketing</string>
+    <string name="kernel">Kernel Developers</string>
+    <string name="app_developer">Application Developer</string>
+    <string name="homepage_server_manager">Homepage/Server Manager</string>
+    <string name="manager_namja">NamJa (Jongwoo Kim, kjwoo810@gmail.com)</string>
+    <string name="manager_limeon">Fluorin (Junseok Oh, koizumihanayo2014@gmail.com)</string>
+    <string name="platform_namja">NamJa (Jongwoo Kim)</string>
+    <string name="namja">Platform Maintainer, kjwoo810@gmail.com</string>
+    <string name="platform_limeon">Fluorin (Junseok Oh)</string>
+    <string name="limeon">Platform Maintainer, Interface Designer, koizumihanayo2014@gmail.com</string>
+    <string name="platform_n4using">N4Using (Wontae Choi)</string>
+    <string name="n4using">Platform Maintainer, dnjsxo516@naver.com</string>
+    <string name="platform_hammer">Hammer-Dev (Sanglyeol Park)</string>
+    <string name="hammer">Platform, Application Maintainer, tkdfuf0923@naver.com</string>
+    <string name="platform_taeukkim">KammatKim (TaeUk Kim)</string>
+    <string name="taeukkim">Platform, Application Maintainer, kammat136@gmail.com</string>
+    <string name="kernel_hdrsd">HDRSD (Junhyeok Ahn)</string>
+    <string name="hdrsd">Kernel, ahnjun09@gmail.com</string>
+    <string name="platform_puri">Puri (Sangbum Kim)</string>
+    <string name="puri">Platform Maintainer, Server Manager, tkdqja9812@gmail.com</string>
+    <string name="platform_brucelee">Bruce Lee (Seungchan Lee)</string>
+    <string name="brucelee">Platform Maintainer, aeoung1241@gmail.com</string>
+    <string name="designer_blaze">Blaze (Byeonghoon Yoo)</string>
+    <string name="blaze">Photographer, Interface Designer, yoobh999@gmail.com</string>
+    <string name="homepage_gom">GOM (Sangwoo Lee)</string>
+    <string name="gom">HomePage</string>
+    <string name="designer_onplay">Onplay (Hwanwoong Kim)</string>
+    <string name="onplay">Interface Designer, khw3548@naver.com</string>
+    <string name="planner_vsfe">VSFe (Byeongcheol Kim)</string>
+    <string name="vsfe">Planning Department, Marketing Department, klm03025@gmail.com</string>
+    <string name="github">Team Triangles Github</string>
+    <string name="github_address">Connect to Team Triangles Github</string>
+    <string name="github">Team Triangles Github</string>
+    <string name="github_address">Connect to Team Triangles Github</string>
+</resources>
+
+

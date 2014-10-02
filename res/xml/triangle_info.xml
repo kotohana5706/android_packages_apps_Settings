@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- 
+  Copyright (C) 2014 Team Triangles ROM Project
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+        android:title="@string/about_triangle">
+
+    	<PreferenceScreen android:key="triangle"
+                android:title="@string/about_triangle1"
+                android:summary="@string/about_triangle2" />
+
+	<PreferenceCategory android:key="triangle_manager"
+		android:title="@string/triangle_manager" />
+
+        <PreferenceScreen android:key="triangles_leader"
+                android:title="@string/triangles_leader"
+                android:summary="@string/manager_namja" >
+		<intent android:action="android.intent.action.VIEW"
+			android:data="mailto:kjwoo810@gmail.com" />
+	</PreferenceScreen>
+
+        <PreferenceScreen android:key="triangles_viceleader"
+                android:title="@string/triangles_viceleader"
+                android:summary="@string/manager_limeon" >
+		<intent android:action="android.intent.action.VIEW"
+			android:data="mailto:koizumihanayo2014@gmail.com" />
+	</PreferenceScreen>
+
+	<PreferenceCategory android:key="platform_maintainer"
+		android:title="@string/platform_maintainer" />
+
+        <PreferenceScreen android:key="platform_namja"
+                android:title="@string/platform_namja"
+                android:summary="@string/namja" >
+		<intent android:action="android.intent.action.VIEW"
+			android:data="mailto:kjwoo810@gmail.com" />
+	</PreferenceScreen>
+
+        <PreferenceScreen android:key="platform_limeon"
+                android:title="@string/platform_limeon"
+                android:summary="@string/limeon" >
+		<intent android:action="android.intent.action.VIEW"
+			android:data="mailto:koizumihanayo2014@gmail.com" />
+	</PreferenceScreen>
+
+        <PreferenceScreen android:key="platform_n4using"
+                android:title="@string/platform_n4using"
+                android:summary="@string/n4using" >
+		<intent android:action="android.intent.action.VIEW"
+			android:data="mailto:dnjsxo516@gmail.com" />
+	</PreferenceScreen>
+
+        <PreferenceScreen android:key="platform_hammer"
+                android:title="@string/platform_hammer"
+                android:summary="@string/hammer" >
+		<intent android:action="android.intent.action.VIEW"
+			android:data="mailto:tkdfuf0923@naver.com" />
+	</PreferenceScreen>
+
+        <PreferenceScreen android:key="platform_puri"
+                android:title="@string/platform_puri"
+                android:summary="@string/puri" >
+		<intent android:action="android.intent.action.VIEW"
+			android:data="mailto:tkdqja9812@gmail.com" />
+	</PreferenceScreen>
+
+        <PreferenceScreen android:key="platform_brucelee"
+                android:title="@string/platform_brucelee"
+                android:summary="@string/brucelee" >
+		<intent android:action="android.intent.action.VIEW"
+			android:data="mailto:aeoung1241@gmail.com" />
+	</PreferenceScreen>
+
+        <PreferenceScreen android:key="platform_taeukkim"
+                android:title="@string/platform_taeukkim"
+                android:summary="@string/taeukkim" >
+		<intent android:action="android.intent.action.VIEW"
+			android:data="mailto:kammat136@gmail.com" />
+	</PreferenceScreen>
+
+	<PreferenceCategory android:key="kernel"
+		android:title="@string/kernel" />
+
+        <PreferenceScreen android:key="kernel_hdrsd"
+                android:title="@string/kernel_hdrsd"
+                android:summary="@string/hdrsd" >
+		<intent android:action="android.intent.action.VIEW"
+			android:data="mailto:ahnjun09@gmail.com" />
+	</PreferenceScreen>
+
+	<PreferenceCategory android:key="plan_marketing"
+		android:title="@string/plan_marketing" />
+
+        <PreferenceScreen android:key="planner_vsfe"
+                android:title="@string/planner_vsfe"
+                android:summary="@string/vsfe" >
+		<intent android:action="android.intent.action.VIEW"
+			android:data="mailto:klm03025@gmail.com" />
+	</PreferenceScreen>
+
+	<PreferenceCategory android:key="interface_designer"
+		android:title="@string/interface_designer" />
+		
+        <PreferenceScreen android:key="designer_limeon"
+                android:title="@string/platform_limeon"
+                android:summary="@string/limeon" >
+		<intent android:action="android.intent.action.VIEW"
+			android:data="mailto:koizumihanayo2014@gmail.com" />
+	</PreferenceScreen>
+	
+        <PreferenceScreen android:key="designer_blaze"
+                android:title="@string/designer_blaze"
+                android:summary="@string/blaze" >
+		<intent android:action="android.intent.action.VIEW"
+			android:data="mailto:yoobh999@gmail.com" />
+	</PreferenceScreen>
+
+        <PreferenceScreen android:key="designer_onplay"
+                android:title="@string/designer_onplay"
+                android:summary="@string/onplay" >
+		<intent android:action="android.intent.action.VIEW"
+			android:data="mailto:khw3548@gmail.com" />
+	</PreferenceScreen>
+
+	<PreferenceCategory android:key="homepage_server_manager"
+		android:title="@string/homepage_server_manager" />
+	
+        <PreferenceScreen android:key="homepage_gom"
+                android:title="@string/homepage_gom"
+                android:summary="@string/gom" />
+
+        <PreferenceScreen android:key="platform_puri"
+                android:title="@string/platform_puri"
+                android:summary="@string/puri" >
+		<intent android:action="android.intent.action.VIEW"
+			android:data="mailto:tkdqja9812@gmail.com" />
+	</PreferenceScreen>
+</PreferenceScreen>
