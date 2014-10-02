@@ -79,6 +79,9 @@ limitations under the License.
     <string name="github_address">Connect to Team Triangles Github</string>
     <!-- Lockscreen battery ring -->
     <string name="battery_around_lockscreen_ring">Battery around unlock ring</string>
+
+    <!-- Second Clock -->
+    <string name="clock_use_second">Use second clock</string>
 </resources>
 
 

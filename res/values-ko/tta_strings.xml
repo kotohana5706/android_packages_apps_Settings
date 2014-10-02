@@ -78,4 +78,7 @@ limitations under the License.
     <string name="github_address">클릭하면 깃허브로 이동합니다.</string>
   <!-- Lockscreen battery ring -->
   <string name="battery_around_lockscreen_ring">잠금해제 배터리 링</string>
+    <!-- Second Clock -->
+    <string name="clock_use_second">초시계 사용</string>
+
   </resources>
