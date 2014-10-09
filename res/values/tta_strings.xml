@@ -93,6 +93,29 @@ limitations under the License.
     <string name="notifications_on_lockscreen_summary">Choose between manners to show pending notifications on lockscreen</string>
     <string name="notifications_on_lockscreen_warning_summary">Each one of notifications on lockscreen services under (PEEK or/and LOCKSCREEN NOTIFICATIONS) will auto disable the other. Make sure to check when disable one of them if you want to use one of those features again. </string>
 
+	<!-- Volume Steps -->
+    <string name="volume_steps_settings_title">Volume steps</string>
+    <string name="volume_steps_settings_summary">Customize volume steps.</string>
+    <string name="volume_steps_60">60</string>
+    <string name="volume_steps_45">45</string>
+    <string name="volume_steps_30">30</string>
+    <string name="volume_steps_15">15</string>
+    <string name="volume_steps_7">7</string>
+    <string name="volume_steps_5">5</string>
+    <!-- Sound settings screen, setting option name -->
+    <string name="volume_steps_alarm_title">Alarm</string>
+    <!-- Sound settings screen, setting option name -->
+    <string name="volume_steps_dtmf_title">DTMF</string>
+    <!-- Sound settings screen, setting option name -->
+    <string name="volume_steps_music_title">Music</string>
+    <!-- Sound settings screen, setting option name -->
+    <string name="volume_steps_notification_title">Notification</string>
+    <!-- Sound settings screen, setting option name -->
+    <string name="volume_steps_ring_title">Ringer</string>
+    <!-- Sound settings screen, setting option name -->
+    <string name="volume_steps_system_title">System</string>
+    <!-- Sound settings screen, setting option name -->
+    <string name="volume_steps_voice_call_title">Voice Call</string>
 </resources>
 
 

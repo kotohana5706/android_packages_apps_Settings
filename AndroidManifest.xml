@@ -2091,6 +2091,10 @@
 	<!-- Triangle Info -->
         <activity android:name=".triangle.Triangle_Info" />
 
+	<!-- Volume Steps -->
+		<activity android:name=".triangle.TriangleVolumeSteps"
+			android:label="@string/volume_steps_settings_title" />
+
         <activity android:name=".applications.LockPatternActivity"
                   android:label="@string/protected_apps"
                   android:windowSoftInputMode="stateHidden|adjustResize"
