@@ -25,5 +25,36 @@
 		<item>@string/volume_steps_7</item>
 		<item>@string/volume_steps_5</item>
     </string-array>
+
+    <!-- overscroll arrays -->
+    <string-array name="pref_overscroll_effect_entries">
+        <item>@string/overscroll_effect_none</item>
+        <item>@string/overscroll_effect_edge_glow</item>
+        <item>@string/overscroll_effect_bounce_and_glow</item>
+        <item>@string/overscroll_effect_bounce</item>
+    </string-array>
+
+    <string-array name="pref_overscroll_effect_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="entries_overscroll_weight">
+        <item>@string/overscroll_weight_extra_heavy</item>
+        <item>@string/overscroll_weight_heavy</item>
+        <item>@string/overscroll_weight_medium</item>
+        <item>@string/overscroll_weight_light</item>
+        <item>@string/overscroll_weight_extra_light</item>
+    </string-array>
+
+    <string-array name="values_overscroll_weight" translatable="false">
+        <item>1</item>
+        <item>3</item>
+        <item>5</item>
+        <item>7</item>
+        <item>9</item>
+    </string-array>
    
 </resources>

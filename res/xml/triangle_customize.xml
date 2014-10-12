@@ -24,4 +24,12 @@ limitations under the License.
 				android:fragment="com.android.settings.triangle.TriangleVolumeSteps"
 				android:title="@string/volume_steps_settings_title"
 				android:summary="@string/volume_steps_settings_summary" />
+
+	<!-- OverScroll Settings -->
+    <PreferenceScreen
+				android:key="scroll_settings"
+				android:fragment="com.android.settings.triangle.TriangleOverscroll"
+				android:title="@string/scroll_settings_title"
+				android:summary="@string/scroll_settings_summary" />
+
 </PreferenceScreen>

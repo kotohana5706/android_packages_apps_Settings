@@ -116,6 +116,25 @@ limitations under the License.
     <string name="volume_steps_system_title">System</string>
     <!-- Sound settings screen, setting option name -->
     <string name="volume_steps_voice_call_title">Voice Call</string>
+
+    <!-- Scroll -->
+    <string name="scroll_settings_title">Overscroll</string>
+    <string name="scroll_settings_summary">Customize overscroll effect.</string>
+    <string name="category_overscroll">Overscroll</string>
+    <string name="pref_overscroll_title">Overscroll effect</string>
+    <string name="pref_overscroll_summary">Choose how scrollable objects look when they overshoot</string>
+    <string name="pref_overscroll_weight_title">Overscroll weight</string>
+    <string name="pref_overscroll_weight_summary">Select the weight of the scrollable objects</string>
+    <string name="overscroll_effect_none">None</string>
+    <string name="overscroll_effect_edge_glow">Edge Glow</string>
+    <string name="overscroll_effect_bounce_and_glow">Bounce and Glow</string>
+    <string name="overscroll_effect_bounce">Bounce</string>
+    <string name="overscroll_weight_extra_heavy">Extra Heavy</string>
+    <string name="overscroll_weight_heavy">Heavy</string>
+    <string name="overscroll_weight_medium">Medium</string>
+    <string name="overscroll_weight_light">Light</string>
+    <string name="overscroll_weight_extra_light">Extra Light</string>
 </resources>
+
 
 
