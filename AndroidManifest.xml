@@ -2085,6 +2085,9 @@
 	<!-- Triangle Center -->
         <activity android:name=".triangle.TriangleCenter" />
 
+	<!-- Triangle Customization -->
+		<activity android:name=".triangle.TriangleCustomize" />
+
 	<!-- Triangle Info -->
         <activity android:name=".triangle.Triangle_Info" />
 

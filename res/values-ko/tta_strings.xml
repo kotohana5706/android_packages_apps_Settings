@@ -20,6 +20,7 @@ limitations under the License.
 	<!-- Triangles Settings Header -->
     <string name="tta_header_category_interface">개인 설정</string>
     <string name="triangle_center">트라이앵글 센터</string>
+    <string name="triangle_customization">커스터마이징</string>
 
 	<!-- Triangles Center -->
     <string name="developer_info">개발자 정보</string>

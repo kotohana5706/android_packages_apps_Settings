@@ -20,6 +20,7 @@ limitations under the License.
 	<!-- Triangles Settings Header -->
     <string name="tta_header_category_interface">Personal Setting</string>
     <string name="triangle_center">Triangles Center</string>
+    <string name="triangle_customization">Customization</string>
 
 	<!-- Triangles Center -->
     <string name="github">OpenSource</string>

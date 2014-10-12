@@ -92,6 +92,14 @@
         android:title="@string/triangle_center"
         android:icon="@drawable/ic_settings_trianglesection" />
 
+    <!-- Triangle Customization -->
+    <header
+        settings:includeXmlForSearch="@xml/triangle_customize"
+        android:id="@+id/triangle_customize"
+        android:fragment="com.android.settings.triangle.TriangleCustomize"
+        android:title="@string/triangle_customization"
+        android:icon="@drawable/ic_settings_trianglecustomize" />
+
     <!-- System Interface -->
     <header android:id="@+id/system_interface_section"
         android:title="@string/header_category_system_interface" />
