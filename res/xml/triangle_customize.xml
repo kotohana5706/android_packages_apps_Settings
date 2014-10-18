@@ -18,23 +18,39 @@ limitations under the License.
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
         android:title="@string/triangle_customization">
 
-	<!-- Volume Step Settings -->
-    <PreferenceScreen
-				android:key="volume_steps_settings"
-				android:fragment="com.android.settings.triangle.TriangleVolumeSteps"
-				android:title="@string/volume_steps_settings_title"
-				android:summary="@string/volume_steps_settings_summary" />
+	<PreferenceCategory android:key="effect_customize"
+            android:title="@string/effect_title">
+    
+		<!-- OverScroll Settings -->
+		<PreferenceScreen
+					android:key="scroll_settings"
+					android:fragment="com.android.settings.triangle.TriangleOverscroll"
+					android:title="@string/scroll_settings_title"
+					android:summary="@string/scroll_settings_summary" />
 
-	<!-- OverScroll Settings -->
-    <PreferenceScreen
-				android:key="scroll_settings"
-				android:fragment="com.android.settings.triangle.TriangleOverscroll"
-				android:title="@string/scroll_settings_title"
-				android:summary="@string/scroll_settings_summary" />
-	<!-- Custom Carrier Label -->
-	<PreferenceScreen
-				android:key="custom_carrier_label"
-				android:title="@string/custom_carrier_label_title" 
-				android:summary="@string/custom_carrier_label_summary" />
+		<!-- Toast Animation -->
+		<PreferenceScreen
+		    android:key="toast"
+		    android:fragment="com.android.settings.triangle.TriangleToastSettings"
+		    android:title="@string/toast_animation_title"
+			android:summary="@string/toast_animation_summary"/>
+	</PreferenceCategory>
+
+	<PreferenceCategory android:key="system_customize"
+            android:title="@string/system_customize_title">
+    
+		<!-- Volume Step Settings -->
+		<PreferenceScreen
+					android:key="volume_steps_settings"
+					android:fragment="com.android.settings.triangle.TriangleVolumeSteps"
+					android:title="@string/volume_steps_settings_title"
+					android:summary="@string/volume_steps_settings_summary" />
+
+		<!-- Custom Carrier Label -->
+		<PreferenceScreen
+					android:key="custom_carrier_label"
+					android:title="@string/custom_carrier_label_title" 
+					android:summary="@string/custom_carrier_label_summary" />
+	</PreferenceCategory>
 
 </PreferenceScreen>

@@ -20,8 +20,10 @@ limitations under the License.
 	<!-- Triangles Settings Header -->
     <string name="tta_header_category_interface">Personal Setting</string>
     <string name="triangle_center">Triangles Center</string>
+	<!-- Triangles Customize Header -->
+    <string name="effect_title">Effects</string>
+    <string name="system_customize_title">System</string>
     <string name="triangle_customization">Customization</string>
-
 	<!-- Triangles Center -->
     <string name="github">OpenSource</string>
     <string name="github_address">View OpenSource of Team Triangles</string>
@@ -148,4 +150,23 @@ limitations under the License.
     <string name="custom_carrier_label_summary">Customize carrier label which is displayed on notification bar.</string>
     <string name="custom_carrier_label_explain">Please enter a new label. Enter an empty to revert to stock label.</string>
     <string name="custom_carrier_label_notset">Custom label currently not set</string>
+    <!-- Toast Animation -->
+    <string name="toast_animation_title">Toast Animation</string>
+    <string name="toast_animation_summary">Customize Toast Animation Effects.</string>
+    <string name="toast_none_animation">None</string>
+    <string name="toast_default_animation">Default</string>
+    <string name="toast_fade_animation">Fade Animation</string>
+    <string name="toast_SlideRight_animation">SlideRight Animation</string>
+    <string name="toast_SlideLeft_animation">SlideLeft Animation</string>
+    <string name="toast_Xylon_animation">Xylon Animation</string>
+    <string name="toast_Toko_animation">Toko Animation</string>
+    <string name="toast_Tn_animation">Tn Animation</string>
+    <string name="toast_Honami_animation">Honami Animation</string>
+    <string name="toast_FastFade_animation">FastFade Animation</string>
+    <string name="toast_GrowFade_animation">GrowFade Animation</string>
+    <string name="toast_GrowFadeCenter_animation">GrowFadeCenter Animation</string>
+    <string name="toast_GrowFadeBottom_animation">GrowFadeBottom Animation</string>
+    <string name="toast_Translucent_animation">Translucent Animation</string>
+    <string name="toast_SlideLeftRight_animation">Slide Left To Right Animation</string>
+    <string name="toast_SlideRightLeft_animation">Slide Right To Left Animation</string>
 </resources>

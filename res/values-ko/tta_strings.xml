@@ -20,8 +20,10 @@ limitations under the License.
 	<!-- Triangles Settings Header -->
     <string name="tta_header_category_interface">개인 설정</string>
     <string name="triangle_center">트라이앵글 센터</string>
+	<!-- Triangles Customize Header -->
+    <string name="effect_title">효과</string>
+    <string name="system_customize_title">시스템</string>
     <string name="triangle_customization">커스터마이징</string>
-
 	<!-- Triangles Center -->
     <string name="developer_info">개발자 정보</string>
     <string name="developer_info_summary">개발자의 정보를 보거나 문의합니다.</string>
@@ -136,4 +138,23 @@ limitations under the License.
     <string name="custom_carrier_label_summary">통신사 라벨 부분에 들어갈 이름을 수정합니다.</string>
     <string name="custom_carrier_label_explain">현재 통신사 라벨 부분에 들어갈 새로운 이름을 입력하세요. 기본 설정으로 되돌리려면 공백 상태로 확인을 누르세요.</string>
     <string name="custom_carrier_label_notset">시스템 기본값으로 설정된 상태입니다.</string>
+	<!-- Toast Animation -->
+    <string name="toast_animation_title">토스트 애니메이션</string>
+    <string name="toast_animation_summary">토스트 애니메이션 효과를 설정합니다.</string>
+    <string name="toast_none_animation">없음</string>
+    <string name="toast_default_animation">기본값</string>
+    <string name="toast_fade_animation">페이드</string>
+    <string name="toast_SlideRight_animation">오른쪽 슬라이드</string>
+    <string name="toast_SlideLeft_animation">왼쪽 슬라이드</string>
+    <string name="toast_Xylon_animation">자일론</string>
+    <string name="toast_Toko_animation">토코</string>
+    <string name="toast_Tn_animation">TN</string>
+    <string name="toast_Honami_animation">호나미</string>
+    <string name="toast_FastFade_animation">빠른 페이드</string>
+    <string name="toast_GrowFade_animation">커지는 페이드</string>
+    <string name="toast_GrowFadeCenter_animation">커지는 페이드 - 중간</string>
+    <string name="toast_GrowFadeBottom_animation">커지는 페이드 - 하단</string>
+    <string name="toast_Translucent_animation">반투명</string>
+    <string name="toast_SlideLeftRight_animation">왼쪽에서 오른쪽으로</string>
+    <string name="toast_SlideRightLeft_animation">오른쪽에서 왼쪽으로</string>
 </resources>
