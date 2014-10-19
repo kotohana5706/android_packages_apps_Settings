@@ -18,11 +18,6 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/themes_settings_title" >
 
-    <com.android.settings.cyanogenmod.SystemSettingCheckBoxPreference
-        android:key="lockscreen_see_through"
-        android:title="@string/see_through_title"
-        android:summary="@string/see_through_summary" />
-
     <PreferenceCategory
         android:title="@string/title_general"
         android:key="lockscreen_general_category" >
@@ -60,6 +55,16 @@
             android:key="lockscreen_modlock_enabled"
             android:title="@string/lockscreen_enable_modlock_title" />
 
+		<com.android.settings.cyanogenmod.SystemSettingCheckBoxPreference
+		    android:key="lockscreen_see_through"
+		    android:title="@string/see_through_title"
+		    android:summary="@string/see_through_summary" />
+
+		<CheckBoxPreference
+			android:key="battery_around_lockscreen_ring"
+			android:title="@string/battery_around_lockscreen_ring"
+			android:defaultValue="true" />
+
     </PreferenceCategory>
 
     <PreferenceCategory
@@ -88,11 +93,6 @@
             android:key="lockscreen_maximize_widgets"
             android:summary="@string/lockscreen_maximize_widgets_summary"
             android:title="@string/lockscreen_maximize_widgets_title" />
-
-	<CheckBoxPreference
-	    android:key="battery_around_lockscreen_ring"
-	    android:title="@string/battery_around_lockscreen_ring"
-	    android:defaultValue="true" />
 
     </PreferenceCategory>
 

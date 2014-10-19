@@ -157,4 +157,9 @@ limitations under the License.
     <string name="toast_Translucent_animation">반투명</string>
     <string name="toast_SlideLeftRight_animation">왼쪽에서 오른쪽으로</string>
     <string name="toast_SlideRightLeft_animation">오른쪽에서 왼쪽으로</string>
+
+    <!--Lockscreen See Through-->
+    <string name="see_through_title">잠금화면 투명화</string>
+    <string name="see_through_summary">잠금화면에서 현재 실행되고 있는 화면을 보여줍니다.</string>
+
 </resources>

@@ -169,4 +169,9 @@ limitations under the License.
     <string name="toast_Translucent_animation">Translucent Animation</string>
     <string name="toast_SlideLeftRight_animation">Slide Left To Right Animation</string>
     <string name="toast_SlideRightLeft_animation">Slide Right To Left Animation</string>
+
+    <!--Lockscreen See Through-->
+    <string name="see_through_title">See through</string>
+    <string name="see_through_summary">Shows the content behind your lockscreen, your data may be visible to those around you</string>
+
 </resources>
