@@ -47,13 +47,11 @@ public class LockscreenInterface extends SettingsPreferenceFragment implements
     private static final String KEY_ENABLE_MAXIMIZE_WIGETS = "lockscreen_maximize_widgets";
     private static final String KEY_LOCKSCREEN_MODLOCK_ENABLED = "lockscreen_modlock_enabled";
     private static final String KEY_LOCKSCREEN_TARGETS = "lockscreen_targets";
-<<<<<<< HEAD
     private static final String BATTERY_AROUND_LOCKSCREEN_RING = "battery_around_lockscreen_ring";
-=======
+
 
     private static final String PREF_LOCKSCREEN_TORCH = "lockscreen_torch";
     private static final String KEY_BLUR_RADIUS = "lockscreen_blur_radius";
->>>>>>> 4eb1cc1... Lockscreen Blur: Allow setting blur radius (2/2)
 
     private CheckBoxPreference mEnableKeyguardWidgets;
     private CheckBoxPreference mEnableCameraWidget;
@@ -61,11 +59,10 @@ public class LockscreenInterface extends SettingsPreferenceFragment implements
     private CheckBoxPreference mEnableMaximizeWidgets;
     private ListPreference mBatteryStatus;
     private Preference mLockscreenTargets;
-<<<<<<< HEAD
-=======
+
     private CheckBoxPreference mGlowpadTorch;
     private SeekBarPreference mBlurRadius;
->>>>>>> 4eb1cc1... Lockscreen Blur: Allow setting blur radius (2/2)
+
 
     private ChooseLockSettingsHelper mChooseLockSettingsHelper;
     private LockPatternUtils mLockUtils;
@@ -99,8 +96,7 @@ public class LockscreenInterface extends SettingsPreferenceFragment implements
         mEnableMaximizeWidgets = (CheckBoxPreference) findPreference(KEY_ENABLE_MAXIMIZE_WIGETS);
         mLockscreenTargets = findPreference(KEY_LOCKSCREEN_TARGETS);
 
-<<<<<<< HEAD
-=======
+
         mGlowpadTorch = (CheckBoxPreference) findPreference(PREF_LOCKSCREEN_TORCH);
         mGlowpadTorch.setChecked(Settings.System.getInt(
                 getActivity().getApplicationContext().getContentResolver(),
@@ -117,7 +113,7 @@ public class LockscreenInterface extends SettingsPreferenceFragment implements
             prefs.removePreference(mGlowpadTorch);
         }
 
->>>>>>> 4eb1cc1... Lockscreen Blur: Allow setting blur radius (2/2)
+
         mEnableModLock = (CheckBoxPreference) findPreference(KEY_LOCKSCREEN_MODLOCK_ENABLED);
         if (mEnableModLock != null) {
             mEnableModLock.setOnPreferenceChangeListener(this);
@@ -265,8 +261,7 @@ public class LockscreenInterface extends SettingsPreferenceFragment implements
             ((CheckBoxPreference) preference).setChecked(value);
             updateAvailableModLockPreferences();
             return true;
-<<<<<<< HEAD
-=======
+
         } else if (preference == mGlowpadTorch) {
             Settings.System.putInt(cr, Settings.System.LOCKSCREEN_GLOWPAD_TORCH, (Boolean) objValue ? 1 : 0);
             return true;
@@ -274,7 +269,6 @@ public class LockscreenInterface extends SettingsPreferenceFragment implements
             int radius = ((Integer) objValue).intValue();
             Settings.System.putInt(cr, Settings.System.LOCKSCREEN_BLUR_RADIUS, radius);
             return true;
->>>>>>> 4eb1cc1... Lockscreen Blur: Allow setting blur radius (2/2)
         }
 
         return false;

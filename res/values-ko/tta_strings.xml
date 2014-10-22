@@ -151,5 +151,6 @@ limitations under the License.
     <!--Lockscreen See Through-->
     <string name="see_through_title">잠금화면 투명화</string>
     <string name="see_through_summary">잠금화면에서 현재 실행되고 있는 화면을 보여줍니다.</string>
+    <string name="lockscreen_blur_radius_title">블러 효과를 지정합니다.</string>
 
 </resources>
